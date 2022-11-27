@@ -7,10 +7,15 @@ name = "pypi"
 mechanize = "*"
 tidalapi = "*"
 pipenv = "*"
+black = "*"
 
 [dev-packages]
 pylint = "*"
 flake8 = "*"
+black = "*"
 
 [requires]
 python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true
